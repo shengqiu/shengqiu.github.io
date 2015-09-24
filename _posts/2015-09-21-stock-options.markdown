@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Introduction of Option "
-date:   2015-09-20 08:29:35
+title:  "Stock Options "
+date:   2015-09-21 08:29:35
 categories: RMFE
 ---
+
 
 # Kinds of Option
 
