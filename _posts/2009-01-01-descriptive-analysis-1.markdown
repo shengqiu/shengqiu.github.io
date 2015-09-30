@@ -182,12 +182,11 @@ for city in city_list_sorted:
 {% endhighlight %}
 
 
-
-
 <div>
-    <a href="https://plot.ly/~FrankQiu/27/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/27.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="FrankQiu:27"  src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~FrankQiu/70/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/70.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:70"  src="https://plot.ly/embed.js" async></script>
 </div>
+
 
 {% highlight python%}
 ['Arizona', 50460]
