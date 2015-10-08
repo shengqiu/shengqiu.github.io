@@ -167,7 +167,7 @@ So not really corralted
 |   latenight |      |
 |   lunch     |      |
 
-
+## Background music
 
 |    background    |      |
 |------------------|------|
@@ -179,6 +179,19 @@ So not really corralted
 |      playlist    |      |
 |       video      |      |
 |       noise      |      |
+
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/154/" target="_blank" title="ag_background_df[, 2] vs ag_background_df[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/154.png" alt="ag_background_df[, 2] vs ag_background_df[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:154"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+#### we can also sort it 
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/156/" target="_blank" title="ag_background_df_sort[, 2] vs ag_background_df_sort[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/156.png" alt="ag_background_df_sort[, 2] vs ag_background_df_sort[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:156"  src="https://plot.ly/embed.js" async></script>
+</div>
 
 
 
