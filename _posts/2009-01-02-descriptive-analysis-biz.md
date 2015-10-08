@@ -97,15 +97,36 @@ They are all really bad
 # Then look at some correlations:
 
 
-#### First price and rating
+#### First # of Review and rating
 
 <div>
     <a href="https://plot.ly/~FrankQiu/135/" target="_blank" title="stars vs num_review" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/135.png" alt="stars vs num_review" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FrankQiu:135"  src="https://plot.ly/embed.js" async></script>
 </div>
 
+maybe then group into bins:
 
-# Interesting attributes:
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/139/" target="_blank" title="ag_review_df$stars vs ag_review_df$review_round" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/139.png" alt="ag_review_df$stars vs ag_review_df$review_round" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:139"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+So not really corralted
+
+#### Then price range and rating
+
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/147/" target="_blank" title="ag_price_df[, 2] vs ag_price_df[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/147.png" alt="ag_price_df[, 2] vs ag_price_df[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:147"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+#### Not very corrlated
+
+# Then other Interesting attributes:
 
 
 
