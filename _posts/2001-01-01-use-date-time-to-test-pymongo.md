@@ -6,7 +6,21 @@ categories: pymongo
 ---
 
 ---
+# install mongoDB
+
+{% highlight r %}
+
+ 
+brew install mongodb
+ 
+sudo mkdir -p /data/db
+{% endhighlight %}
+
+
+
 # build mongoDB
+
+Run `sudo mongod`, and open a separate terminal
 
 {% highlight r %}
 cd dropbox/580_yelp/json
