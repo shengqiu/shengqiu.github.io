@@ -128,7 +128,7 @@ So not really corralted
 
 # Then other Interesting attributes:
 
-
+## Ambience
 
 |  Ambience   |      |
 |-------------|------|
@@ -142,7 +142,20 @@ So not really corralted
 |   trendy    |      |
 |   upscale   |      |
 
+<div>
+    <a href="https://plot.ly/~FrankQiu/162/" target="_blank" title="ag_ambience_df[, 2] vs ag_ambience_df[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/162.png" alt="ag_ambience_df[, 2] vs ag_ambience_df[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:162"  src="https://plot.ly/embed.js" async></script>
+</div>
 
+
+#### We can sort it 
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/164/" target="_blank" title="ag_ambience_df_sort[, 2] vs ag_ambience_df_sort[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/164.png" alt="ag_ambience_df_sort[, 2] vs ag_ambience_df_sort[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:164"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+## Diet
 
 |   Diet      |      |
 |-------------|------|
@@ -154,18 +167,6 @@ So not really corralted
 |   vegan     |      |
 | vegetarian  |      |
 
-
-
-|  highlights |      |
-|-------------|------|
-|   Dancing   |      |
-|   kids      |      |
-|   breakfast |      |
-|   brunch    |      |
-|   dessert   |      |
-|   dinner    |      |
-|   latenight |      |
-|   lunch     |      |
 
 ## Background music
 
@@ -215,6 +216,18 @@ So not really corralted
 
 
 
+
+
+|  highlights |      |
+|-------------|------|
+|   Dancing   |      |
+|   kids      |      |
+|   breakfast |      |
+|   brunch    |      |
+|   dessert   |      |
+|   dinner    |      |
+|   latenight |      |
+|   lunch     |      |
 
 
 
