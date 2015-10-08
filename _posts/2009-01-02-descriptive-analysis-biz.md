@@ -42,7 +42,7 @@ categories: yelp_project
 
 ---
 
-# **Franchise 
+# **Franchise**
 
 #### This is the plot of # of reviews for each biz
 <div>
