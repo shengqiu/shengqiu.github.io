@@ -168,6 +168,21 @@ So not really corralted
 | vegetarian  |      |
 
 
+<div>
+    <a href="https://plot.ly/~FrankQiu/168/" target="_blank" title="ag_diet_df[, 2] vs ag_diet_df[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/168.png" alt="ag_diet_df[, 2] vs ag_diet_df[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:168"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+#### Then sort it
+
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/170/" target="_blank" title="ag_diet_df_sort[, 2] vs ag_diet_df_sort[, 1]" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/170.png" alt="ag_diet_df_sort[, 2] vs ag_diet_df_sort[, 1]" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:170"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
 ## Background music
 
 |    background    |      |
