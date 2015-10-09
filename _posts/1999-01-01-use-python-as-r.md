@@ -10,7 +10,7 @@ categories: python2r
 	
 
 --- 
-fd
+
 
 ## Even before going to dataframe, firstly we can check out the pandas series
 
@@ -52,6 +52,7 @@ import pandas as pd
 df = pd.read_csv('test.csv', chunksize=10000)
 {% endhighlight %}
 
+
 ---
 
 ## Create your a dataframe
@@ -86,12 +87,34 @@ Then dump the csv to the directory you desire.
 -  `mode = "a"` means append to the exsiting; `mode = 'w'` will overwrite
 -  `header` enable loading the theader as well
 -  `encodeing` can be set to 'ascii' or 'utf-8'
+-  `to_json` are available as well
 
 
 
 {% highlight python%} 
 df.to_csv(path_or_buf="yelp/dd.csv", sep=',', header=True, mode = 'a', quotechar='"',line_terminator='\n')
 {% endhighlight %}
+
+---
+
+## Clipboard!!!
+
+{% highlight python%} 
+hank = pd.read_clipboard()
+{% endhighlight %}
+
+---
+
+## 
+
+
+
+
+
+
+
+
+
 
 
 3. Since you are using pandas already, use more `apply` and `map`
@@ -101,3 +124,5 @@ df.to_csv(path_or_buf="yelp/dd.csv", sep=',', header=True, mode = 'a', quotechar
 http://1.aisensiy.sinaapp.com/2014/03/%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8-pandas-%E7%9A%84%E6%80%BB%E7%BB%93/
 
 http://docs.python-guide.org/en/latest/
+
+http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
