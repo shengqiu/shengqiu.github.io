@@ -13,6 +13,10 @@ categories: python2r
 1. load data from csv
 
 The chunksize parameter defines how many lines in total
+
+
+
+
 ```python
 df = pd.read_csv('test.csv', chunksize=10000)
 ```
