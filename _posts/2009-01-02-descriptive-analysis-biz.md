@@ -246,4 +246,14 @@ So not really corralted
 
 
 
+# Neighbour
+
+# later:
+
+- Keep explore correlation
+- Does the rating a reflection of sentiment in general?
+- Use comparison between 
+
+
+
 
