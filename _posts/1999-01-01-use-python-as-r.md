@@ -8,9 +8,7 @@ categories: python2r
 
 - Pandas makes python like R, which enables a lot of basic operations that R can do.
 	
-
 --- 
-
 
 ## Even before going to dataframe, firstly we can check out the pandas series
 
@@ -37,9 +35,6 @@ s[s==7]
 - `s[s>1]` return any string
 - `s[s<1]` does return any string
 - `s[type(s) is int]` won't do what you want... have to do this:`s[[type(ss) is int for ss in s]`
-
-
-
 
 ---
 
@@ -256,9 +251,8 @@ pd.merge(left_frame, right_frame, on='key', how='outer')
 
 ---
 
+<a href="http://1.aisensiy.sinaapp.com/2014/03/%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8-pandas-%E7%9A%84%E6%80%BB%E7%BB%93/">reference 1</a>
 
-http://1.aisensiy.sinaapp.com/2014/03/%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8-pandas-%E7%9A%84%E6%80%BB%E7%BB%93/
+<a href="http://docs.python-guide.org/en/latest/">reference 2</a>
 
-http://docs.python-guide.org/en/latest/
-
-http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+<a href="http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/">reference 2</a>
