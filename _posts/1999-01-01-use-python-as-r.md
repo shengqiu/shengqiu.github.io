@@ -52,6 +52,14 @@ import pandas as pd
 df = pd.read_csv('test.csv', chunksize=10000)
 {% endhighlight %}
 
+Another really cool example
+
+{% highlight python%} 
+headers = ['name', 'title', 'department', 'salary']
+chicago = pd.read_csv('city-of-chicago-salaries.csv',header=False,names=headers,converters={'salary': lambda x: float(x.replace('$', ''))})
+{% endhighlight %}
+
+Here `lambda x: float(x.replace('$',''))` change the data into float data type, and remove the '$'
 
 ---
 
@@ -89,8 +97,6 @@ Then dump the csv to the directory you desire.
 -  `encodeing` can be set to 'ascii' or 'utf-8'
 -  `to_json` are available as well
 
-
-
 {% highlight python%} 
 df.to_csv(path_or_buf="yelp/dd.csv", sep=',', header=True, mode = 'a', quotechar='"',line_terminator='\n')
 {% endhighlight %}
@@ -98,6 +104,18 @@ df.to_csv(path_or_buf="yelp/dd.csv", sep=',', header=True, mode = 'a', quotechar
 ---
 
 ## Clipboard!!!
+
+The clipboard works well in python 3.5 (The version I am using). However, in python 2.7, there might be problem because of text encoding. The encoding is essentially why I prefer python3 over python2.
+
+{% highlight python%} 
+hank = pd.read_clipboard()
+{% endhighlight %}
+
+---
+
+## work with data structure
+
+This part uses the dataset <a href="http://grouplens.org/datasets/movielens/">movie dataset</a>, follows this instruction <a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/"> Greg Reda's Tutorial </a>
 
 {% highlight python%} 
 # users
@@ -115,15 +133,9 @@ movies = pd.read_csv('ml-100k/u.item', sep='|', names=m_cols, usecols=range(5))
 
 ---
 
-## work with data structure
+## Firstly, let's get some information
 
-{% highlight python%} 
-hank = pd.read_clipboard()
-{% endhighlight %}
-
-This part uses the dataset <a href="http://grouplens.org/datasets/movielens/">movie dataset</a>, follows this instruction <a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/"> Greg Reda's Tutorial </a>
-
-## Firstly, let's get some informat
+It is important to understand the data roughly to begin, especially data type. The `.info()` method is pretty cool because it tells you how many **non-null** cells there are.
 
 {% highlight python%} 
 movie? # detailed explaination of the datatype
@@ -134,10 +146,109 @@ movies.head(50) # first 50 rows
 movies['title'].tail(20) # last 30 rows of the 'title' column
 {% endhighlight %}
 
+---
+
+## some formating the index
+
+Index could be given in the dataset already. So there is a way format the index.
+
+{% highlight python%} 
+# Replace the meaningless index with the 'movie_id', inplace means don't make a copy
+movies.set_index('movie_id',inplace = True)
+
+# Or put it back
+users.reset_index(inplace=True)
+{% endhighlight %}
+
+---
+
+## Copy or Replace
+
+Before we go deep into it... Python does some thin called 
+
+---
+
+## Coarse some column into another datatype
+
+Here I want to aggregate by year, so I tried two ways:
+
+#### Coarse the column to string
+
+This works well when all date-time are well formated. But some time there are 'nan', so have to deal with it.
+
+{% highlight python%} 
+movies['year'] = movies['release_date'].astype(str)
+movies = movies.loc[movies['year'] != 'nan',]
+{% endhighlight %}
+
+ 
+#### Coarse the column to datetime
+
+{% highlight python%} 
+
+{% endhighlight %}
+
+---
+
+## None, nan, and other annoying stuff....
+
+nan means it is not a number
+
+{% highlight python%} 
+import math
+x=float('nan')
+math.isnan(x)
+{% endhighlight %}
+
+This is really funny...
+
+{% highlight python%} 
+def isNaN(num):
+    return num != num
+{% endhighlight %}
+
+check if one column contains `nan`, and return the array of logic statements
 
 
+{% highlight python%} 
+df2['one'].isnull() # or
+pd.isnull(df2['one'])
+df2['four'].notnull()
+
+{% endhighlight %}
+
+---
+
+## Filter-out the rows with `None` or `nan`
+
+`None` and `nan` are really annoying, so I just want to get rid of them...
+
+{% highlight python%} 
+movies['year'] = Series(str(movies.release_date), index=range(len(movies.index)))
+{% endhighlight %}
+
+---
+
+## add column in pandas
+
+{% highlight python%} 
+movies['year'] = Series(str(movies.release_date), index=range(len(movies.index)))
+{% endhighlight %}
+
+---
+
+## Joining in pandas
+
+Do join like SQL by changing how into "left", "right", "inner", "outer"
+
+{% highlight python%} 
+pd.merge(left_frame, right_frame, on='key', how='outer')
+{% endhighlight %}
+
+---
 
 
+## Groupby in pandas
 
 
 
