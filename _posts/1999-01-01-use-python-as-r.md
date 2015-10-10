@@ -78,7 +78,7 @@ Firstly, what is your working directory?
 {% highlight python%} 
 import os
 os.getcwd()
-os.chdir('/Users/shengqiu/Dropbox'
+os.chdir('/Users/shengqiu/Dropbox')
 {% endhighlight %}
 
 Then dump the csv to the directory you desire. 
@@ -100,15 +100,39 @@ df.to_csv(path_or_buf="yelp/dd.csv", sep=',', header=True, mode = 'a', quotechar
 ## Clipboard!!!
 
 {% highlight python%} 
-hank = pd.read_clipboard()
+# users
+u_cols = ['user_id', 'age', 'sex', 'occupation', 'zip_code']
+users = pd.read_csv('ml-100k/u.user', sep='|', names=u_cols)
+
+# ratings
+r_cols = ['user_id', 'movie_id', 'rating', 'unix_timestamp']
+ratings = pd.read_csv('ml-100k/u.data', sep='\t', names=r_cols)
+
+# movie
+m_cols = ['movie_id', 'title', 'release_date', 'video_release_date', 'imdb_url']
+movies = pd.read_csv('ml-100k/u.item', sep='|', names=m_cols, usecols=range(5))
 {% endhighlight %}
 
 ---
 
-## 
+## work with data structure
 
+{% highlight python%} 
+hank = pd.read_clipboard()
+{% endhighlight %}
 
+This part uses the dataset <a href="http://grouplens.org/datasets/movielens/">movie dataset</a>, follows this instruction <a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/"> Greg Reda's Tutorial </a>
 
+## Firstly, let's get some informat
+
+{% highlight python%} 
+movie? # detailed explaination of the datatype
+movies.info() # datatype of each column
+movies.dtypes # similar to the previous
+movies.describe() # summary of numeric columns
+movies.head(50) # first 50 rows
+movies['title'].tail(20) # last 30 rows of the 'title' column
+{% endhighlight %}
 
 
 
@@ -120,6 +144,7 @@ hank = pd.read_clipboard()
 3. Since you are using pandas already, use more `apply` and `map`
 
 ---
+
 
 http://1.aisensiy.sinaapp.com/2014/03/%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8-pandas-%E7%9A%84%E6%80%BB%E7%BB%93/
 
