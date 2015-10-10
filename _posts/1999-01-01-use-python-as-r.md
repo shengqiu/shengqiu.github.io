@@ -10,7 +10,9 @@ categories: python2r
 	
 --- 
 
-## Even before going to dataframe, firstly we can check out the pandas series
+# Even before dataframe
+
+#### firstly we can check out the pandas series
 
 The pandas series is pretty awesome, we can have an index, and you can call both `s[['A','C']]`  and s[0:2]. So essentially, this is a dictionary and a list at the same time.
 
@@ -38,7 +40,9 @@ s[s==7]
 
 ---
 
-## load data frame from csv
+# Read and Write dataframe
+
+## Load data frame from csv
 
 The chunksize parameter defines how many lines in total
 
@@ -47,7 +51,7 @@ import pandas as pd
 df = pd.read_csv('test.csv', chunksize=10000)
 {% endhighlight %}
 
-Another really cool example
+Another really cool example using the lambda function
 
 {% highlight python%} 
 headers = ['name', 'title', 'department', 'salary']
@@ -108,7 +112,7 @@ hank = pd.read_clipboard()
 
 ---
 
-## work with data structure
+# Work with data structure
 
 This part uses the dataset <a href="http://grouplens.org/datasets/movielens/">movie dataset</a>, follows this instruction <a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/"> Greg Reda's Tutorial </a>
 
@@ -143,7 +147,7 @@ movies['title'].tail(20) # last 30 rows of the 'title' column
 
 ---
 
-## some formating the index
+## Format the index
 
 Index could be given in the dataset already. So there is a way format the index.
 
@@ -159,7 +163,7 @@ users.reset_index(inplace=True)
 
 ## Copy or Replace
 
-Before we go deep into it... Python does some thin called 
+Before we go deep into it... Python does some thing called referance assignment. This means no physical location is allocated to store the variable . In stead, a variable is just a name or a pointer; the value is stored in somewhere else. This is not only in pandas, but also for all python functions/scripts/classes... Here are some other <a href="http://shengqiu.github.io/python/1000/01/01/hahaha-wtf.html">funny stuff  </a>in python.
 
 ---
 
