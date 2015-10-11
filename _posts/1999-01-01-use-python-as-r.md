@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pandas Tutorial"
+title:  "Pandas Short Tutorial - Pandas is like R"
 date:   1999-01-01 00:00:00
 categories: python2r
 ---
@@ -8,6 +8,7 @@ categories: python2r
 
 - Pandas makes python like R, which enables a lot of basic operations that R can do.
 - This tutorial is based on python 3.4 and pandas 0.16.2
+- Also take a look at the other post: <a href="http://shengqiu.github.io/python2r/1999/01/01/use-python-as-r.html">Pandas is like R</a>
 	
 --- 
 
@@ -254,20 +255,8 @@ Now this looks pretty neat. But if I start with this appraoch, I won't be able t
 
 ---
 
-## Joining in pandas
 
-Do join like SQL by changing how into "left", "right", "inner", "outer"
-
-{% highlight python%} 
-pd.merge(left_frame, right_frame, on='key', how='outer')
-{% endhighlight %}
-
----
-
-
-## Groupby in pandas
-
-
+## `Apply` and `Map`
 
 3. Since you are using pandas already, use more `apply` and `map`
 
