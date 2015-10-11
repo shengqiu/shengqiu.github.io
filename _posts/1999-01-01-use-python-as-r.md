@@ -8,7 +8,7 @@ categories: python2r
 
 - Pandas makes python like R, which enables a lot of basic operations that R can do.
 - This tutorial is based on python 3.4 and pandas 0.16.2
-- Also take a look at the other post: <a href="http://shengqiu.github.io/python2r/1999/01/01/use-python-as-r.html">Pandas is like R</a>
+- Also take a look at the other post: <a href="http://shengqiu.github.io/python2r/1999/01/02/use-pandas-as-r.html">Pandas is like SQL</a>
 	
 --- 
 

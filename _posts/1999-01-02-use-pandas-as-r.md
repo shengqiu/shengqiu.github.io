@@ -5,6 +5,8 @@ date:   1999-01-02 00:00:00
 categories: python2r
 ---
 
+- Also take a look at the other post: <a href="http://shengqiu.github.io/python2r/1999/01/01/use-python-as-r.html">Pandas is like R</a>
+
 ---
 
 ## Joining in pandas
