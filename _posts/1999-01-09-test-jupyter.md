@@ -1,7 +1,8 @@
+
 ---
 layout: post
-title:  "How to set up iPython"
-date:   1999-01-03 00:00:00
+title:  "Test Jupyter"
+date:   1999-01-09 00:00:00
 categories: python
 ---
 
@@ -27,4 +28,5 @@ In [3]: data_1
 {% highlight python %}
 In [None]: 
 {% endhighlight %}
+
 
