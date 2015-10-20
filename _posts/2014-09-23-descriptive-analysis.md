@@ -5,11 +5,58 @@ date:   2014-09-23 14:22:19
 categories: yelp_project
 ---
 
+# Join reviews into business collections:
+
+Mongo DB does not have built-in join, so join reviews into business collection permanatly in a hiearchical structure.
+
+{% highlight python %}
+{ 
+    "_id" : ObjectId("561df90ff0e79f1ac8ab85f9"), 
+    "reviews" : 
+        [
+            {
+                "date" : "2013-11-08", 
+                "votes" : {
+                    "funny" : NumberInt(0), 
+                    "cool" : NumberInt(0), 
+                    "useful" : NumberInt(0)
+                }, 
+                "type" : "review", 
+                "review_id" : "Di3exaUCFNw1V4kSNW5pgA", 
+                "user_id" : "uK8tzraOp4M5u3uYrqIBXg", 
+                "business_id" : "UsFtqoBl7naz8AVUBZMjQQ", 
+                "stars" : NumberInt(5), 
+                "text" : "All the food is great here. But the best thing they have is their wings. Their wings are simply fantastic!!  The \"Wet Cajun\" are by the best & most popular.  I also like the seasoned salt wings.  Wing Night is Monday & Wednesday night, $0.75 whole wings!\n\nThe dining area is nice. Very family friendly! The bar is very nice is well.  This place is truly a Yinzer's dream!!  \"Pittsburgh Dad\" would love this place n'at!!"
+            }, 
+            {...}, 
+            {...}, 
+            {...}
+        ], 
+    "type" : "business", 
+    "city" : "Dravosburg", 
+    "review_count" : NumberInt(4), 
+    "full_address" : "202 McClure St\nDravosburg, PA 15034", 
+    "latitude" : 40.350519, 
+    "neighborhoods" : [], 
+    "business_id" : "UsFtqoBl7naz8AVUBZMjQQ", 
+    "longitude" : -79.88693, 
+    "state" : "PA", 
+    "name" : "Clancy's Pub", 
+    "open" : true, 
+    "attributes" : {"Good For Groups" : true, ...}, 
+    "categories" : ["Nightlife"], 
+    "stars" : 3.5, 
+    "hours" : {}
+}
+{% endhighlight %}
+
+---
+
 # Analysis of food related tags:
+
 There are 8047 kinds of combination of tags:
 
 {% highlight python %}
-
 [{'_id': ['Mexican', 'Restaurants'], 'count': 1481},
  {'_id': ['Pizza', 'Restaurants'], 'count': 1068},
  {'_id': ['Hotels & Travel', 'Event Planning & Services', 'Hotels'],
@@ -23,6 +70,8 @@ There are 8047 kinds of combination of tags:
  {'_id': ['Burgers', 'Fast Food', 'Restaurants'], 'count': 582},
  ...]
 {% endhighlight %}
+
+---
 
 There are 783 kinds of tags in total:
 
@@ -40,7 +89,33 @@ There are 783 kinds of tags in total:
  ...]
 {% endhighlight %}
 
-# Analysis of Review Volume over time by category
+---
+
+Here we focus more on food related tags:
+
+First put put all tags into 3 groups
+- tags receive less than 100 reviews (555)
+- food tags receive more than 100 reviews (70), manually seclected
+- non food related tags receive more than 100 reviews (158)
+
+The volume of reviews for the 3 groups
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/293/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/293.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:293"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+---
+
+The average reviews for the 3 groups
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/287/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/287.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:287"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+---
+
 
 The total number of reviews by each categories
 
@@ -48,6 +123,18 @@ The total number of reviews by each categories
     <a href="https://plot.ly/~FrankQiu/184/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/184.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FrankQiu:184"  src="https://plot.ly/embed.js" async></script>
 </div>
+
+The average number of reviews by each categories
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/296/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/296.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:296"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+---
+
+# Analysis of Review Volume over time by category
 
 All reviews over time:
 
