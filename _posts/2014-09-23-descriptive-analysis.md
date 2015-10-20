@@ -5,8 +5,42 @@ date:   2014-09-23 14:22:19
 categories: yelp_project
 ---
 
-# Analysis of Review Volume
+# Analysis of food related tags:
+There are 8047 kinds of combination of tags:
 
+{% highlight python %}
+
+[{'_id': ['Mexican', 'Restaurants'], 'count': 1481},
+ {'_id': ['Pizza', 'Restaurants'], 'count': 1068},
+ {'_id': ['Hotels & Travel', 'Event Planning & Services', 'Hotels'],
+  'count': 982},
+ {'_id': ['Food', 'Coffee & Tea'], 'count': 958},
+ {'_id': ['Chinese', 'Restaurants'], 'count': 934},
+ {'_id': ['Beauty & Spas', 'Nail Salons'], 'count': 883},
+ {'_id': ['Restaurants', 'Italian'], 'count': 674},
+ {'_id': ['Hair Salons', 'Beauty & Spas'], 'count': 651},
+ {'_id': ['Food', 'Grocery'], 'count': 585},
+ {'_id': ['Burgers', 'Fast Food', 'Restaurants'], 'count': 582},
+ ...]
+{% endhighlight %}
+
+There are 783 kinds of tags in total:
+
+{% highlight python %}
+[('Restaurants', 21892),
+ ('Shopping', 8919),
+ ('Food', 7862),
+ ('Beauty & Spas', 4738),
+ ('Nightlife', 4340),
+ ('Bars', 3628),
+ ('Health & Medical', 3213),
+ ('Automotive', 2965),
+ ('Home Services', 2853),
+ ('Fashion', 2566),
+ ...]
+{% endhighlight %}
+
+# Analysis of Review Volume over time by category
 
 The total number of reviews by each categories
 
@@ -14,8 +48,6 @@ The total number of reviews by each categories
     <a href="https://plot.ly/~FrankQiu/184/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/184.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FrankQiu:184"  src="https://plot.ly/embed.js" async></script>
 </div>
-
----
 
 All reviews over time:
 
@@ -55,9 +87,10 @@ Total number of review over the year.
 - Nov 27/ Nov 28 (around Thanksgiving)
 - Christmas
 
-2. We can also see peak right after Christmas to Jan 08
-3. The rest of Jan is low
-4. Summer (Jun, July, Aug, early Sept) have higher volume than rest of the year, except for the christmas holiday spike.
+2. right after the holiday/vacation/fesitival, we always have a 'after spike', for almost every valley (except for thanksgiving, holloween)
+3. We can also see peak right after Christmas to Jan 08
+4. The rest of Jan is low
+5. Summer (Jun, July, Aug, early Sept) have higher volume than rest of the year, except for the christmas holiday spike.
 
 <div>
     <a href="https://plot.ly/~FrankQiu/229/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/229.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -128,5 +161,45 @@ Normalized Night Life
     <a href="https://plot.ly/~FrankQiu/246/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/246.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FrankQiu:246"  src="https://plot.ly/embed.js" async></script>
 </div>
+
+
+# Analysis of Review score over time by category
+
+Plot mexican star rating over time:
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/262/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/262.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:262"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+MA(30) plot
+<div>
+    <a href="https://plot.ly/~FrankQiu/272/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/272.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:272"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+Plot star rating of mexican over the year:
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/266/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/266.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:266"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+MA(3) plot
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/284/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/284.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:284"  src="https://plot.ly/embed.js" async></script>
+</div>
+
+
+
+
+
+
+
+
+
 
 
