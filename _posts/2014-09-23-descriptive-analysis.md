@@ -104,17 +104,29 @@ Then Normalize it:
 
 ---
 
-There is a very interesting pattern for Italian Restaurant
+Normalized italian
 
 <div>
-    <a href="https://plot.ly/~FrankQiu/208/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/208.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="FrankQiu:208"  src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~FrankQiu/241/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/241.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:241"  src="https://plot.ly/embed.js" async></script>
 </div>
 
-This is the plot for the night life
+---
+
+Normalized Amrican
 
 <div>
-    <a href="https://plot.ly/~FrankQiu/211/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/211.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="FrankQiu:211"  src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~FrankQiu/249/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/249.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:249"  src="https://plot.ly/embed.js" async></script>
 </div>
+
+---
+
+Normalized Night Life
+
+<div>
+    <a href="https://plot.ly/~FrankQiu/246/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/246.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="FrankQiu:246"  src="https://plot.ly/embed.js" async></script>
+</div>
+
 
