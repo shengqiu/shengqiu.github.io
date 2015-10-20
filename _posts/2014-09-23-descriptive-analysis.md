@@ -100,6 +100,8 @@ First put put all tags into 3 groups
 
 The volume of reviews for the 3 groups
 
+- So we are not missing a lot of reviews by excluding the tags receive less than 100 reviews.
+
 <div>
     <a href="https://plot.ly/~FrankQiu/293/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/293.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FrankQiu:293"  src="https://plot.ly/embed.js" async></script>
@@ -108,6 +110,8 @@ The volume of reviews for the 3 groups
 ---
 
 The average reviews for the 3 groups
+
+- The food related business receive a lot more of reviews
 
 <div>
     <a href="https://plot.ly/~FrankQiu/287/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~FrankQiu/287.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
