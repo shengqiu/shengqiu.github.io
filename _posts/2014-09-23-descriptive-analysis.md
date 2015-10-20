@@ -75,7 +75,7 @@ There is a similar patern in the volume of mexican reviews over time
 
 ---
 
-This is what it looks like after normalize it
+This is what it looks like after normalize it... pretty much it is white noise
 
 1. May 5th is Cinco de Mayo, which is the Mexican Independence Day.
 
