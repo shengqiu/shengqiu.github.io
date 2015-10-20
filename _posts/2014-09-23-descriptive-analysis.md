@@ -265,6 +265,7 @@ MA(30) plot
     <script data-plotly="FrankQiu:272"  src="https://plot.ly/embed.js" async></script>
 </div>
 
+---
 
 Plot star rating of mexican over the year:
 
@@ -280,7 +281,7 @@ MA(3) plot
     <script data-plotly="FrankQiu:284"  src="https://plot.ly/embed.js" async></script>
 </div>
 
-
+---
 
 
 
