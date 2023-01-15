@@ -3,7 +3,7 @@ title: 日本经济兴衰史（一）
 layout: post
 # post-image: "https://cdn-japantimes.com/wp-content/uploads/2022/04/np_file_150735-870x489.jpeg"
 post-image: "../assets/images/japantimes_central_bank.jpeg"
-description: 1945年，二战结束后日本进入
+description: 1945年，二战结束后日本进入战后重建，短短
 tags:
 - 日本经济
 - GDP
