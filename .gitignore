@@ -9,6 +9,7 @@ _site/
 .jekyll-metadata
 */.DS_Store
 .DS_Store
+_site/*
 
 ### Ruby ###
 *.gem
@@ -82,3 +83,4 @@ _site/feed.xml
 _site/index.html
 _site/project.html
 _site/test-page.html
+_site/feed.xml
