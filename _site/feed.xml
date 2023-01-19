@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-19T16:57:16+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">See through</title><subtitle>For sure we can&apos;t see through everything, but won&apos;t stop trying</subtitle><entry><title type="html">金宏气体公司研究</title><link href="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6" rel="alternate" type="text/html" title="金宏气体公司研究" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6</id><content type="html" xml:base="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6"><![CDATA[<h1 id="客户下游行业拆分">客户下游行业拆分</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-19T17:01:56+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">See through</title><subtitle>For sure we can&apos;t see through everything, but won&apos;t stop trying</subtitle><entry><title type="html">金宏气体公司研究</title><link href="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6" rel="alternate" type="text/html" title="金宏气体公司研究" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6</id><content type="html" xml:base="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6"><![CDATA[<h1 id="客户下游行业拆分">客户下游行业拆分</h1>
 
 <table>
   <thead>
@@ -541,25 +541,25 @@
 
 <h3 id="气体纯化">气体纯化</h3>
 
-<p><img src="/Users/apple/GitHub/shengqiu.github.io/doc/assets/images/image-20230119163604480.png" alt="image-20230119163604480" /></p>
+<p><img src="https://media.githubusercontent.com/media/shengqiu/shengqiu.github.io/main/doc/assets/images/image-20230119163604480.png" alt="image-20230119163604480" /></p>
 
 <p>工艺流程说明：经检验合格的原料充入原料储罐存储，然后经计量、增压器增压，依次送入洗涤塔、干燥塔、吸附塔除去颗粒物、酸性气体、水分等杂质， 由吸附塔出来的气体进入精馏塔，在精馏塔中除去轻重组分杂质、金属离子得到高纯产品。高纯产品经低温液体泵送入充装系统，在充装系统中分别充入罐车、集装格和钢瓶中，经成品检验合格后成品入库。</p>
 
 <h3 id="气体混配工艺">气体混配工艺</h3>
 
-<p><img src="/Users/apple/GitHub/shengqiu.github.io/doc/assets/images/image-20230119163716385.png" alt="image-20230119163716385" /></p>
+<p><img src="https://media.githubusercontent.com/media/shengqiu/shengqiu.github.io/main/doc/assets/images/image-20230119163716385.png" alt="image-20230119163716385" /></p>
 
 <p>新钢瓶经钝化处理后，进行钢瓶检测，检测合格后将钢瓶接入混配装置，在混配装置中充入单种或多种组分气、平衡气，根据客户需求调节各组分气及平衡气的比例进行配气，充气完成后将钢瓶放置到混匀机上将气体混匀，经成品检验合格后成品入库。</p>
 
 <h3 id="气体检测工艺">气体检测工艺</h3>
 
-<p><img src="/Users/apple/GitHub/shengqiu.github.io/doc/assets/images/image-20230119163752785.png" alt="image-20230119163752785" /></p>
+<p><img src="https://media.githubusercontent.com/media/shengqiu/shengqiu.github.io/main/doc/assets/images/image-20230119163716385.png" alt="image-20230119163752785" /></p>
 
 <p>将充装后的钢瓶、集装格或鱼雷车接入样品处理面板，进行置换处理待分析；载气（多种分析仪器的辅助系统）经纯化后引入分析仪器，分析仪器稳定后批量检测来自面板的气体，进行钢瓶气的成品分析，分析结果经过电脑数据处理软件处理后得到成品的检测数据。气体检测用的分析仪器主要有组分分析、水分分析、金属离子分析、颗粒度分析等四大类仪器。</p>
 
 <h3 id="钢瓶处理">钢瓶处理</h3>
 
-<p><img src="/Users/apple/GitHub/shengqiu.github.io/doc/assets/images/image-20230119163844652.png" alt="image-20230119163844652" /></p>
+<p><img src="https://media.githubusercontent.com/media/shengqiu/shengqiu.github.io/main/doc/assets/images/image-20230119163844652.png" alt="image-20230119163844652" /></p>
 
 <p>工艺流程说明：待处理钢瓶分类接入钢瓶余气处理系统，置换处理后将钢瓶阀门卸下；钢瓶依次经内表面清洗及抛光后钢瓶中的水分使用热氮气吹扫，吹扫后装瓶阀、检漏，合格后将钢瓶放入烘箱进行真空干燥。经干燥的钢瓶做水分含量的检测，检测合格后将钢瓶从烘箱中移出，进行外表面处理和检查，检查合格后钢瓶登记入库。</p>]]></content><author><name></name></author><category term="金宏气体" /><category term="行业研究" /><summary type="html"><![CDATA[客户下游行业拆分]]></summary></entry><entry><title type="html">华特气体公司研究</title><link href="http://localhost:4000/blog/%E5%8D%8E%E7%89%B9%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6" rel="alternate" type="text/html" title="华特气体公司研究" /><published>2023-01-15T00:00:00+08:00</published><updated>2023-01-15T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E5%8D%8E%E7%89%B9%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6</id><content type="html" xml:base="http://localhost:4000/blog/%E5%8D%8E%E7%89%B9%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6"><![CDATA[<h1 id="上市前财务情况">上市前财务情况</h1>
 
