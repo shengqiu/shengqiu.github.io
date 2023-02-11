@@ -1,4 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-20T10:57:58+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">See through</title><subtitle>For sure we can&apos;t see through everything, but won&apos;t stop trying</subtitle><entry><title type="html">化学气相沉积工艺</title><link href="http://localhost:4000/blog/%E5%8C%96%E5%AD%A6%E6%B0%94%E7%9B%B8%E6%B2%89%E7%A7%AF%E5%B7%A5%E8%89%BA" rel="alternate" type="text/html" title="化学气相沉积工艺" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E5%8C%96%E5%AD%A6%E6%B0%94%E7%9B%B8%E6%B2%89%E7%A7%AF%E5%B7%A5%E8%89%BA</id><content type="html" xml:base="http://localhost:4000/blog/%E5%8C%96%E5%AD%A6%E6%B0%94%E7%9B%B8%E6%B2%89%E7%A7%AF%E5%B7%A5%E8%89%BA"><![CDATA[]]></content><author><name></name></author><category term="化学气相沉积工艺" /><category term="相关工艺" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">蚀刻工艺</title><link href="http://localhost:4000/blog/%E8%9A%80%E5%88%BB%E5%B7%A5%E8%89%BA" rel="alternate" type="text/html" title="蚀刻工艺" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E8%9A%80%E5%88%BB%E5%B7%A5%E8%89%BA</id><content type="html" xml:base="http://localhost:4000/blog/%E8%9A%80%E5%88%BB%E5%B7%A5%E8%89%BA"><![CDATA[]]></content><author><name></name></author><category term="化学气相沉积工艺" /><category term="相关工艺" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">金宏气体公司研究</title><link href="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6" rel="alternate" type="text/html" title="金宏气体公司研究" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6</id><content type="html" xml:base="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6"><![CDATA[<h1 id="客户下游行业拆分">客户下游行业拆分</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-11T11:24:08+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">See through</title><subtitle>For sure we can&apos;t see through everything, but won&apos;t stop trying</subtitle><entry><title type="html">三氟化氮</title><link href="http://localhost:4000/blog/%E7%89%B9%E7%A7%8D%E6%B0%94%E4%BD%93%E4%BA%A7%E5%93%81" rel="alternate" type="text/html" title="三氟化氮" /><published>2023-01-19T00:00:00+08:00</published><updated>2023-01-19T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E7%89%B9%E7%A7%8D%E6%B0%94%E4%BD%93%E4%BA%A7%E5%93%81</id><content type="html" xml:base="http://localhost:4000/blog/%E7%89%B9%E7%A7%8D%E6%B0%94%E4%BD%93%E4%BA%A7%E5%93%81"><![CDATA[<h1 id="应用工艺">应用工艺</h1>
+
+<h5 id="化学气相沉积cvd">化学气相沉积CVD</h5>
+
+<p>三氟化氮在半导体工业中主要用于化学气相淀积(CVD)  装置的清洗。三氟化氮可以单独或与其它气体组合，用作等离子体工艺的蚀刻气体，例如NF3、NF3/Ar、NF3/He用于硅化合物MoSi2的蚀刻；NF3/CCl4、NF3/HCl既用于MoSi2的蚀刻，也用于NbSi2的蚀刻。</p>
+
+<h5 id="蚀刻工艺">蚀刻工艺</h5>
+
+<p>三氟化氮是微电子工业中一种优良的等离子蚀刻气体。对硅和氮化硅蚀刻，采用三氟化氮比四氟化碳和四氟化碳与氧气的混合气体有更高的蚀刻速率和选择性，而且对表面无污染，尤其是在厚度小于1.5 um的集成电路材料的蚀刻中，三氟化氮具有非常优异的蚀刻速率和选择性，在被蚀刻物表面不留任何残留物，同时也是非常良好的清洗剂。</p>
+
+<h1 id="制备工艺">制备工艺</h1>
+
+<p>以熔融的NH<sub>3</sub>, (HF)<sub>x</sub> 、 或加入少量NaF、KF、CsF或LF中的一种或儿种为电解质体系，连续或间歇通入无水NF和NH<sub>3</sub>, 以补充电解液以及调节 其熔盐比; 电解槽电解产生的阳极粗品进入热解器，除去N<sub>x</sub>F<sub>x</sub>，等不饱和氟纸化合物 ;经过热解的NF<sub>3</sub> 粗品进入水洗塔 ，除去一部分从电解槽挥发出来的HF等酸性气体; 水洗后的粗 产品气进入碱洗塔，进一步除去酸性气体以及一些低氟化物等;碱洗后气体通过水环式真空泵，使气体收集于气柜中。</p>
+
+<h3 id="行业应用">行业应用：</h3>
+
+<h5 id="1-半导体行业">1. 半导体行业</h5>
+
+<p>国家统计局数据显示，2018 年中国国内集成电路产业销售额 6532 亿 元，同比增长 20.7%。据推测，2020 年中国半导体设备固定资产投资将达 到 9,300 亿元。IC 制造业向中国大陆转移的趋势将会持续。</p>
+
+<p>NF3 作为半导体生产必不可少的特种气体，随着制程工艺的提升，其 用量增速远高于 IC 产能增速，2019 年-2022 年国内市场复合增长率预计达 20%以上。</p>
+
+<h5 id="2显示面板行业">2.显示面板行业</h5>
+
+<p>近年来，全球显示面板的需求量持续增加，其中 TFT-LCD 产值占</p>
+
+<p>FDP 产业的 91%。从全球 TFT-LCD 产业格局来看，中国显示行业不仅突 破了 4.5 代、5 代、6 代、8.5 代线，京东方的 10.5 代线也已量产;过去一 直由韩国三星、LG 垄断的 OLED 产业也已突破，整个显示行业已由原来 的日韩台三足鼎立，转变成三国四地的产业新格局。</p>
+
+<p>中国面板产能从 2%(2005 年)的全球占有率，攀升至 35%(2017 年)，跃 居全球第二。2017 年底，中国大陆建成投产的面板生产线 40 条，其中 8.5 代线 11 条、10.5 代线 1 条;在建的 8.5/10.5/11 代线共 4 条;未来还有 BOE、 LGD、HKC、CEC 等厂商的 10.5 代线建设计划陆续落地。</p>
+
+<p>NF3 作为显示面板生产必不可少的特种气体，随着高世代线的投产及 OLED 的发展，其用量将较快增长。</p>
+
+<h1 id="市场需求趋势分析">市场需求趋势分析</h1>
+
+<p>根据市场调研数据，全球 NF3 2018 年度总需求量约 2.8 万吨，其中韩国需求量超 10,000 吨，占比 35%;中国大陆需求量达 7,000 吨，占比 25%; 中国台湾需求量 5,000 吨，占比 18%，美国需求量 3,200 吨，占比 12%;日 本、新加坡等地区占比 10%。 随着半导体、显示面板行业生产重心、消费重心向中国国内转移，而且生 产 NF3 主要原料均由国内供给，两头在内的供应链格局，决定了 NF3 生产 向国内转移是大势所趋。</p>
+
+<p>NF3 生产国目前主要有中、韩、美、日，其中</p>
+
+<ul>
+  <li>韩国 1,5000 吨，占比 50% 以上;
+    <ul>
+      <li>韩国 SK，其优势为产能大，依靠韩国三星、 LG 等大公司有较高的销售价格，劣势在于原材料均由中国国内采购，生产成本高</li>
+    </ul>
+  </li>
+  <li>中国国内 8,500 吨，占比约 30%;
+    <ul>
+      <li>中国国内有中船 718 所及大成黎明，前者目前是国内最 大的 NF3 生产厂，后者已建成产能 1,000 吨，并已公告二期扩产 1,000 吨计 划。</li>
+    </ul>
+  </li>
+  <li>日本约 6,000 吨，占比约 20%。
+    <ul>
+      <li>日本 KDK，其优势在于关东电化公司产品品种齐全，劣势在于 原料由中国国内采购，日本生产，而日本国内 NF3 需求已萎缩，生产成本和运输成本高昂。</li>
+    </ul>
+  </li>
+  <li>美国约 6,000 吨，占比约 20%。</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>产能情况</th>
+      <th>生产工艺</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>中船重工718所(诚瑞特气)</td>
+      <td>14000</td>
+      <td>电解法</td>
+    </tr>
+    <tr>
+      <td>晓星新材料(韩国晓星)</td>
+      <td>5000</td>
+      <td>电解法</td>
+    </tr>
+    <tr>
+      <td>奥瑟亚新材料(韩国0G)</td>
+      <td>1500</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>爱思开新材料(韩国SK)</td>
+      <td>1500</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>黎明院 黎明大成1期</td>
+      <td>1000</td>
+      <td>电解法</td>
+    </tr>
+    <tr>
+      <td>(昊华科 黎明中试线 200 4N 电解法 技) 黎明大成2期</td>
+      <td>1000</td>
+      <td>电解法</td>
+    </tr>
+    <tr>
+      <td>博瑞电子(巨化股份)</td>
+      <td>2000</td>
+      <td>电解法</td>
+    </tr>
+    <tr>
+      <td>山东重山光电</td>
+      <td>1000</td>
+      <td>4N5</td>
+    </tr>
+    <tr>
+      <td>飞源科技</td>
+      <td>1000</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>四川富华信(核工专理化工程研究院下属)</td>
+      <td>500</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>杜邦中国(常熟)</td>
+      <td>450</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>科美特(雅克科技)</td>
+      <td>3500</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="设备投入">设备投入</h1>
+
+<p>以2019年山东飞源气体有限公司的NF<sub>3</sub>二期三期项目3000吨项目为例：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: right">预算投资</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>二期NF<sub>3</sub></td>
+      <td style="text-align: right">9,635</td>
+    </tr>
+    <tr>
+      <td>三期NF<sub>3</sub></td>
+      <td style="text-align: right">6,864</td>
+    </tr>
+    <tr>
+      <td>公用工程</td>
+      <td style="text-align: right">826</td>
+    </tr>
+    <tr>
+      <td>节能降耗</td>
+      <td style="text-align: right">1,324</td>
+    </tr>
+    <tr>
+      <td>二期NF<sub>3</sub>，槽车</td>
+      <td style="text-align: right">2,850</td>
+    </tr>
+    <tr>
+      <td>三期NF<sub>3</sub>;槽车</td>
+      <td style="text-align: right">2,850</td>
+    </tr>
+    <tr>
+      <td>土地</td>
+      <td style="text-align: right">2,420</td>
+    </tr>
+    <tr>
+      <td>合计</td>
+      <td style="text-align: right">26,769</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><category term="特种气体" /><category term="行业研究" /><summary type="html"><![CDATA[应用工艺]]></summary></entry><entry><title type="html">化学气相沉积工艺</title><link href="http://localhost:4000/blog/%E5%8C%96%E5%AD%A6%E6%B0%94%E7%9B%B8%E6%B2%89%E7%A7%AF%E5%B7%A5%E8%89%BA" rel="alternate" type="text/html" title="化学气相沉积工艺" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E5%8C%96%E5%AD%A6%E6%B0%94%E7%9B%B8%E6%B2%89%E7%A7%AF%E5%B7%A5%E8%89%BA</id><content type="html" xml:base="http://localhost:4000/blog/%E5%8C%96%E5%AD%A6%E6%B0%94%E7%9B%B8%E6%B2%89%E7%A7%AF%E5%B7%A5%E8%89%BA"><![CDATA[]]></content><author><name></name></author><category term="化学气相沉积工艺" /><category term="相关工艺" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">蚀刻工艺</title><link href="http://localhost:4000/blog/%E8%9A%80%E5%88%BB%E5%B7%A5%E8%89%BA" rel="alternate" type="text/html" title="蚀刻工艺" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E8%9A%80%E5%88%BB%E5%B7%A5%E8%89%BA</id><content type="html" xml:base="http://localhost:4000/blog/%E8%9A%80%E5%88%BB%E5%B7%A5%E8%89%BA"><![CDATA[]]></content><author><name></name></author><category term="化学气相沉积工艺" /><category term="相关工艺" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">金宏气体公司研究</title><link href="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6" rel="alternate" type="text/html" title="金宏气体公司研究" /><published>2023-01-18T00:00:00+08:00</published><updated>2023-01-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6</id><content type="html" xml:base="http://localhost:4000/blog/%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6"><![CDATA[<h1 id="客户下游行业拆分">客户下游行业拆分</h1>
 
 <table>
   <thead>
